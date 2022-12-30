@@ -43,9 +43,9 @@ function ExperienceCard({experience}: Props) {
         />
 
         <div className='px-0 md:px-10'>
-            <h4 className='text-2xl font-light'>{experience.company}</h4>
-            <p className='font-bold text-lg mt-1'>{experience.role}</p>
-            <p className='uppercase py-4 text-gray-300'>{experience.duration}</p>
+            <h4 className='text-2xl md:text-2xl font-light'>{experience.company}</h4>
+            <p className='font-bold text-lg md:text-xl mt-1'>{experience.role}</p>
+            <p className='uppercase py-4 text-base md:text-lg text-gray-300'>{experience.duration}</p>
 
             <ul className='list-disc space-y-3 ml-5 text-xs md:text-sm xl:text-base'>
                 {experience.bulletPoints.map(bulletPoint =>(
