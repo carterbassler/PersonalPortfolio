@@ -36,7 +36,7 @@ function ExperienceCard({experience}: Props) {
         transition={{ duration: 1.2 }}
         whileInView={{ opacity: 1, y: 0}}
         viewport={{once: true }}
-        className='w-26 h-26 md:w-32 md:h-32 rounded-full md:rounded-full xl:w-[130px]
+        className='w-28 h-28 md:w-32 md:h-32 rounded-full md:rounded-full xl:w-[130px]
         xl:h-[130px] object-cover object-center'
         src={experience.image}
         alt=""
@@ -44,7 +44,7 @@ function ExperienceCard({experience}: Props) {
 
         <div className='px-0 md:px-10'>
             <h4 className='text-2xl font-light'>{experience.company}</h4>
-            <p className='font-bold text-xl mt-1'>{experience.role}</p>
+            <p className='font-bold text-lg mt-1'>{experience.role}</p>
             <p className='uppercase py-4 text-gray-300'>{experience.duration}</p>
 
             <ul className='list-disc space-y-3 ml-5 text-xs md:text-sm xl:text-base'>
