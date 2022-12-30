@@ -25,7 +25,7 @@ type Props = {
 function ExperienceCard({experience}: Props) {
   return (
     <article className='flex flex-col rounded-lg items-center
-    space-y-2 md:space-y-5 flex-shrink-0 w-[320px] md:w-[600px] xl:w-[700px] snap-center
+    space-y-2 md:space-y-5 flex-shrink-0 w-[300px] md:w-[600px] xl:w-[700px] snap-center
     bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer
     transition-opacity duration-200 overflow-hidden'>
         <motion.img
@@ -36,14 +36,14 @@ function ExperienceCard({experience}: Props) {
         transition={{ duration: 1.2 }}
         whileInView={{ opacity: 1, y: 0}}
         viewport={{once: true }}
-        className='w-28 h-28 md:w-32 md:h-32 rounded-full md:rounded-full xl:w-[130px]
+        className='w-26 h-26 md:w-32 md:h-32 rounded-full md:rounded-full xl:w-[130px]
         xl:h-[130px] object-cover object-center'
         src={experience.image}
         alt=""
         />
 
         <div className='px-0 md:px-10'>
-            <h4 className='text-3xl font-light'>{experience.company}</h4>
+            <h4 className='text-2xl font-light'>{experience.company}</h4>
             <p className='font-bold text-xl mt-1'>{experience.role}</p>
             <p className='uppercase py-4 text-gray-300'>{experience.duration}</p>
 
