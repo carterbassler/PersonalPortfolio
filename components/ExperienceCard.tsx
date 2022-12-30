@@ -45,25 +45,11 @@ function ExperienceCard({experience}: Props) {
         <div className='px-0 md:px-10'>
             <h4 className='text-3xl font-light'>{experience.company}</h4>
             <p className='font-bold text-xl mt-1'>{experience.role}</p>
-            {/* <div className='flex space-x-2 my-2'>
-                <img
-                className='h-8 w-8 rounded-full'
-                src="https://cdn.sanity.io/images/ltuexkre/production/2a67945990f9c2ef568cf7e8483c1a8174556463-500x500.png"
-                 />
-                 <img
-                className='h-8 w-8 rounded-full'
-                src="https://cdn.sanity.io/images/ltuexkre/production/2a67945990f9c2ef568cf7e8483c1a8174556463-500x500.png"
-                 />
-                 <img
-                className='h-8 w-8 rounded-full'
-                src="https://cdn.sanity.io/images/ltuexkre/production/2a67945990f9c2ef568cf7e8483c1a8174556463-500x500.png"
-                 />
-            </div> */}
             <p className='uppercase py-4 text-gray-300'>{experience.duration}</p>
 
             <ul className='list-disc space-y-3 ml-5 text-xs md:text-sm xl:text-base'>
                 {experience.bulletPoints.map(bulletPoint =>(
-                    <li>{bulletPoint}</li>
+                    <li key={bulletPoint}>{bulletPoint}</li>
                 ))}
             </ul>
         </div>

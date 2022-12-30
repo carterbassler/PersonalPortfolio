@@ -39,7 +39,7 @@ function Projects({}: Props) {
         <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x
         snap-mandatory z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#8f1d21]/80'>
             {projects.map((project, i) => (
-                <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-center
+                <div key={i} className='w-screen flex-shrink-0 snap-center flex flex-col space-y-center
                 items-center justify-center p-20 md:p-40 h-screen'>
                     <img className='w-50 h-50 md:w-50 md:h-50'
                     src={projects[i].img}

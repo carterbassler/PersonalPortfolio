@@ -37,7 +37,7 @@ function Music({ }: Props) {
       <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x
         snap-mandatory z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#8f1d21]/80'>
         {songs.map((project, i) => (
-          <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-center
+          <div key={i} className='w-screen flex-shrink-0 snap-center flex flex-col space-y-center
                 items-center justify-center p-20 md:py-44 md:px-60 h-screen'>
             <iframe
               src={project}
