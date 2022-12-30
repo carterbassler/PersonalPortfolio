@@ -26,7 +26,7 @@ function About({}: Props) {
             <h4 className='text-2xl md:text-3xl font-semibold'>
             Here is a {" "}<span className='strong'>little</span>{" "} bit about me
             </h4>
-            <p className='text-base'>
+            <p className='text-sm md:text-base'>
             I am currently a third year student at the University of Virginia studying 
             {" "}<a className='animated'>Computer Science</a>. The past two summers I’ve interned at 
             {" "}<a className='animated'>Fermat Capital Management</a>, an alternative investment 
