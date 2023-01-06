@@ -24,10 +24,10 @@ function About({ }: Props) {
           />
 
           <div className='space-y-10 px-0 md:px-10'>
-            <h4 className='text-2xl md:text-3xl font-semibold p-5 md:p-0'>
+            <h4 className='text-xl md:text-3xl font-semibold p-5 md:p-0'>
               Here is a {" "}<span className='strong'>little</span>{" "} bit about me
             </h4>
-            <p className='text-base md:text-base'>
+            <p className='text-sm md:text-base'>
               I am currently a third year student at the University of Virginia studying
               {" "}<a className='animated'>Computer Science</a>. The past two summers I’ve interned at
               {" "}<a className='animated'>Fermat Capital Management</a>, an alternative investment
