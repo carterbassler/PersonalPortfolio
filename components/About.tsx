@@ -12,7 +12,7 @@ function About({ }: Props) {
         transition={{ duration: 1.5 }}
         className='flex flex-col text-center md:text-left px-10 items-center'>
         <h3 className='top-24 uppercase
-        text-gray-500 text-2xl text-center p-10 md:p-0'>
+        text-gray-500 text-2xl text-center p-5 md:p-0'>
           About
         </h3>
         <div className='flex flex-col md:flex-row justify-evenly text-center md:text-left items-center mx-auto md:p-10'>
@@ -23,7 +23,7 @@ function About({ }: Props) {
         md:rounded-lg md:w-64 md:h-96 xl:w-[400px] xl:h-[500px]'
           />
 
-          <div className='space-y-10 px-0 md:px-10'>
+          <div className='space-y-1 px-0 md:px-10'>
             <h4 className='text-xl md:text-3xl font-semibold p-5 md:p-0'>
               Here is a {" "}<span className='strong'>little</span>{" "} bit about me
             </h4>

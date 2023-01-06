@@ -25,7 +25,7 @@ type Props = {
 function ExperienceCard({experience}: Props) {
   return (
     <article className='flex flex-col rounded-lg items-center
-    space-y-2 md:space-y-5 flex-shrink-0 w-[350px] md:w-[600px] xl:w-[700px] snap-center
+    space-y-2 md:space-y-5 flex-shrink-0 w-[330px] md:w-[600px] xl:w-[700px] snap-center
     bg-[#292929] p-8 md:p-10 hover:opacity-100 opacity-40 cursor-pointer
     transition-opacity duration-200 overflow-hidden'>
         <motion.img
@@ -45,7 +45,7 @@ function ExperienceCard({experience}: Props) {
         <div className='px-0 md:px-10'>
             <h4 className='text-2xl md:text-2xl font-light'>{experience.company}</h4>
             <p className='font-bold text-lg md:text-xl mt-1'>{experience.role}</p>
-            <p className='py-2 md:py-4 text-lg text-gray-300'>{experience.duration}</p>
+            <p className='py-2 md:py-4 text-base md:text-lg text-gray-300'>{experience.duration}</p>
 
             <ul className='list-disc space-y-3 ml-5 text-sm md:text-sm xl:text-base'>
                 {experience.bulletPoints.map(bulletPoint =>(
