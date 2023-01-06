@@ -10,15 +10,16 @@ function About({}: Props) {
     whileInView={{ opacity: 1}}
     transition={{ duration: 1.5}}
     className='flex flex-col relative h-screen text-center md:text-left
-    md:flex-row px-10 justify-evenly mx-auto items-center'>
-        <h3 className='absolute top-24 uppercase
+    md:flex-col px-10 justify-evenly items-center'>
+      <h3 className='top-24 uppercase
         text-gray-500 text-2xl justify-center'>
         About
         </h3>
+      <div className='flex flex-col md:flex-row justify-evenly text-center md:text-left items-center mx-auto'>
 
         <motion.img
         src="https://media.licdn.com/dms/image/C5603AQFft3QevGb1Ew/profile-displayphoto-shrink_400_400/0/1609867797275?e=1676505600&v=beta&t=xvze5-Qk6ZnjXLu00n78lPQRO6P-grocgbcLUzzIVgs"
-        className='-mb-20 md:mb-0 flex-shrink-0 w-40 h-40 rounded-full object-cover
+        className='md:mb-0 flex-shrink-0 w-40 h-40 rounded-full object-cover
         md:rounded-lg md:w-64 md:h-96 xl:w-[400px] xl:h-[500px]'
         />
 
@@ -47,6 +48,7 @@ function About({}: Props) {
             I have an wide array of different playlists and music tastes. Thanks for reading a bit about me!
             </p> */}
         </div>
+      </div>
     </motion.div>
   )
 }
