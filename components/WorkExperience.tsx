@@ -58,7 +58,7 @@ function WorkExperience({ }: Props) {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
         className='flex flex-col relative text-left
-    md:flex-col max-w-full px-10 mx-auto items-center'>
+    md:flex-col max-w-full px-5 mx-auto items-center'>
         <div className='align-bottom'>
           <h3 className='top-24 uppercase
         text-gray-500 text-2xl justify-center'>
