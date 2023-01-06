@@ -3,39 +3,39 @@ import React from 'react'
 
 type Props = {}
 
-function About({}: Props) {
+function About({ }: Props) {
   return (
-    <motion.div
-    initial={{ opacity: 0}}
-    whileInView={{ opacity: 1}}
-    transition={{ duration: 1.5}}
-    className='flex flex-col relative h-screen text-center md:text-left
-    md:flex-col px-10 justify-evenly items-center'>
-      <h3 className='top-24 uppercase
-        text-gray-500 text-2xl justify-center'>
-        About
+    <div className='flex items-center w-full h-screen'>
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1.5 }}
+        className='flex flex-col text-center md:text-left px-10 items-center'>
+        <h3 className='top-24 uppercase
+        text-gray-500 text-2xl text-center p-10 md:p-0'>
+          About
         </h3>
-      <div className='flex flex-col md:flex-row justify-evenly text-center md:text-left items-center mx-auto'>
+        <div className='flex flex-col md:flex-row justify-evenly text-center md:text-left items-center mx-auto md:p-10'>
 
-        <motion.img
-        src="https://media.licdn.com/dms/image/C5603AQFft3QevGb1Ew/profile-displayphoto-shrink_400_400/0/1609867797275?e=1676505600&v=beta&t=xvze5-Qk6ZnjXLu00n78lPQRO6P-grocgbcLUzzIVgs"
-        className='md:mb-0 flex-shrink-0 w-40 h-40 rounded-full object-cover
+          <motion.img
+            src="https://media.licdn.com/dms/image/C5603AQFft3QevGb1Ew/profile-displayphoto-shrink_400_400/0/1609867797275?e=1676505600&v=beta&t=xvze5-Qk6ZnjXLu00n78lPQRO6P-grocgbcLUzzIVgs"
+            className='md:mb-0 flex-shrink-0 w-40 h-40 rounded-full object-cover
         md:rounded-lg md:w-64 md:h-96 xl:w-[400px] xl:h-[500px]'
-        />
+          />
 
-        <div className='space-y-10 px-0 md:px-10'>
-            <h4 className='text-2xl md:text-3xl font-semibold'>
-            Here is a {" "}<span className='strong'>little</span>{" "} bit about me
+          <div className='space-y-10 px-0 md:px-10'>
+            <h4 className='text-2xl md:text-3xl font-semibold p-5 md:p-0'>
+              Here is a {" "}<span className='strong'>little</span>{" "} bit about me
             </h4>
-            <p className='text-sm md:text-base'>
-            I am currently a third year student at the University of Virginia studying 
-            {" "}<a className='animated'>Computer Science</a>. The past two summers I’ve interned at 
-            {" "}<a className='animated'>Fermat Capital Management</a>, an alternative investment 
-            manager that specializes in insurance linked strategies. At school I’m a member of UVA’s 
-            chapter of the professional fraternity 
-            {" "}<a className='animated'>Alpha Kappa Psi</a>. I’m experienced with Java, Python, 
-            C++, and am currently learning web development. Check out some of my 
-            {" "}<a className='animated'>social media</a> and feel free to reach out!
+            <p className='text-base md:text-base'>
+              I am currently a third year student at the University of Virginia studying
+              {" "}<a className='animated'>Computer Science</a>. The past two summers I’ve interned at
+              {" "}<a className='animated'>Fermat Capital Management</a>, an alternative investment
+              manager that specializes in insurance linked strategies. At school I’m a member of UVA’s
+              chapter of the professional fraternity
+              {" "}<a className='animated'>Alpha Kappa Psi</a>. I’m experienced with Java, Python,
+              C++, and am currently learning web development. Check out some of my
+              {" "}<a className='animated'>social media</a> and feel free to reach out!
             </p>
             {/* <p className='text-xs'>
             I am currently a third year student at the University of Virginia studying Computer Science.
@@ -47,9 +47,10 @@ function About({}: Props) {
             am an avid Aston Villa fan. Feel free to check out my social media, mainly my spotify profile.
             I have an wide array of different playlists and music tastes. Thanks for reading a bit about me!
             </p> */}
+          </div>
         </div>
-      </div>
-    </motion.div>
+      </motion.div>
+    </div>
   )
 }
 

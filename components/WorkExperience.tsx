@@ -4,7 +4,7 @@ import ExperienceCard from './ExperienceCard'
 
 type Props = {}
 
-function WorkExperience({}: Props) {
+function WorkExperience({ }: Props) {
   class Experience {
     company: string;
     image: string;
@@ -52,24 +52,30 @@ function WorkExperience({}: Props) {
     ]
   )
   return (
-    <motion.div
-    initial={{ opacity: 0 }}
-    whileInView={{ opacity: 1}}
-    transition={{ duration: 1.5 }}
-    className='h-screen flex relative overflow-hidden flex-col text-left
-    md:flex-row max-w-full px-10 justify-evenly mx-auto items-center'>
-        <h3 className='absolute top-24 uppercase
-        text-gray-500 text-2xl'>
+    <div className='flex items-center w-full h-screen'>
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1.5 }}
+        className='flex flex-col relative text-left
+    md:flex-col max-w-full px-10 mx-auto items-center'>
+        <div className='align-bottom'>
+          <h3 className='top-24 uppercase
+        text-gray-500 text-2xl justify-center'>
             Experience
-        </h3>
-
-        <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory
-        scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#8f1d21]/80'>
-            <ExperienceCard experience={ex1}/>
-            <ExperienceCard experience={ex2}/>
-            <ExperienceCard experience={ex3}/>
+          </h3>
         </div>
-    </motion.div>
+        <div className='flex flex-row overflow-hidden max-w-full'>
+
+          <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory
+        scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#8f1d21]/80'>
+            <ExperienceCard experience={ex1} />
+            <ExperienceCard experience={ex2} />
+            <ExperienceCard experience={ex3} />
+          </div>
+        </div>
+      </motion.div>
+    </div>
   )
 }
 
