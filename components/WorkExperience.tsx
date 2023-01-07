@@ -67,7 +67,7 @@ function WorkExperience({ }: Props) {
         </div>
         <div className='flex flex-row overflow-hidden max-w-full'>
 
-          <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory
+          <div className='w-full flex space-x-5 overflow-x-scroll p-5 snap-x snap-mandatory
         scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#8f1d21]/80'>
             <ExperienceCard experience={ex1} />
             <ExperienceCard experience={ex2} />

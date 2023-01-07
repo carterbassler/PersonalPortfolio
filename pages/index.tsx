@@ -39,7 +39,7 @@ export default function Home() {
         <Projects />
       </section>
 
-      <section id='music' className="snap-center">
+      <section id='music' className="hidden md:flex snap-center">
         <Music />
       </section>
 

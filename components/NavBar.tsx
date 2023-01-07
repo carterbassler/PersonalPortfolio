@@ -27,11 +27,6 @@ function NavBar({}: Props) {
         },
         {
             num: 4,
-            id: '#music',
-            link: 'Music Picks'
-        },
-        {
-            num: 5,
             id: '#contact',
             link: 'Contact Me'
         },

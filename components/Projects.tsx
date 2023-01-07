@@ -43,7 +43,7 @@ function Projects({ }: Props) {
                         {projects.map((project, i) => (
                             <div key={i} className='w-screen flex-shrink-0 snap-center flex flex-col space-y-center
                 items-center justify-center'>
-                                <img className='scale-100'
+                                <img className='h-[200px] w-[275px] md:h-[300px] md:w-[400px]'
                                     src={projects[i].img}
                                     alt=''
                                 />
@@ -55,7 +55,7 @@ function Projects({ }: Props) {
                                         </span>
                                     </h4>
 
-                                    <p className='text-base text-center md:text-center p-5'>
+                                    <p className='text-base text-center md:text-center p-5 pb-20'>
                                         {projects[i].description}
                                     </p>
                                 </div>

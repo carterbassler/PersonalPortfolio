@@ -10,7 +10,7 @@ function About({ }: Props) {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
-        className='flex flex-col text-center md:text-left px-10 items-center'>
+        className='flex flex-col text-center md:text-left px-10'>
         <h3 className='top-24 uppercase
         text-gray-500 text-2xl text-center pb-10 md:p-0'>
           About
@@ -24,10 +24,10 @@ function About({ }: Props) {
           />
 
           <div className='space-y-1 px-0 md:px-10'>
-            <h4 className='text-xl md:text-3xl font-semibold py-5 md:py-10'>
+            <h4 className='text-xl md:text-3xl font-semibold py-10 md:py-10'>
               Here is a {" "}<span className='strong'>little</span>{" "} bit about me
             </h4>
-            <p className='text-sm md:text-base'>
+            <p className='text-base'>
               I am currently a third year student at the University of Virginia studying
               {" "}<a className='animated'>Computer Science</a>. The past two summers I’ve interned at
               {" "}<a className='animated'>Fermat Capital Management</a>, an alternative investment
