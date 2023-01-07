@@ -4,11 +4,11 @@ import Image from 'next/image';
 
 type Props = {}
 
-function Projects({}: Props) {
+function Projects({ }: Props) {
     class Project {
         img: string;
         title: string;
-        description:string;
+        description: string;
 
         constructor(img: string, title: string, description: string) {
             this.img = img;
@@ -16,7 +16,7 @@ function Projects({}: Props) {
             this.description = description;
         }
     }
-    
+
     const projects: Project[] = [
         new Project(
             "https://i.ibb.co/tMQ8wd0/fifaProj.png",
@@ -30,53 +30,42 @@ function Projects({}: Props) {
         ),
     ];
     return (
-    <div className='h-screen relative flex overflow-hidden flex-col text-left md:flex-row
-    max-w-full justify-evenly mx-auto items-center z-0'>
-        <h3 className='absolute top-24 uppercase text-gray-500
+        <div className='flex items-center w-full h-screen'>
+            <div className='flex flex-col text-left md:flex-col
+    max-w-full mx-auto items-center scrollbar-thin'>
+                <h3 className='top-24 uppercase text-gray-500
         text-2xl'>
-            Projects
-        </h3>
+                    Projects
+                </h3>
+                <div className='flex flex-col overflow-hidden mx-auto max-w-full'>
+                    <div className='flex overflow-x-scroll snap-x
+        snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#8f1d21]/80 scrollbar-w-4/5'>
+                        {projects.map((project, i) => (
+                            <div key={i} className='w-screen flex-shrink-0 snap-center flex flex-col space-y-center
+                items-center justify-center'>
+                                <img className='scale-100'
+                                    src={projects[i].img}
+                                    alt=''
+                                />
 
-        <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x
-        snap-mandatory z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#8f1d21]/80'>
-            {projects.map((project, i) => (
-                <div key={i} className='w-screen flex-shrink-0 snap-center flex flex-col space-y-center
-                items-center justify-center p-20 md:p-40 h-screen'>
-                    <img className='w-50 h-50 md:w-50 md:h-50'
-                    src={projects[i].img}
-                    alt=''
-                    />
+                                <div className='space-y-1 px-0 md:px-10 max-w-6xl'>
+                                    <h4 className='text-2xl font-semibold text-center' >
+                                        <span>
+                                            {projects[i].title}
+                                        </span>
+                                    </h4>
 
-                    <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
-                        <h4 className='text-2xl font-semibold text-center' >
-                            <span>
-                               {projects[i].title} 
-                            </span> 
-                        </h4>
-
-                        {/* <div className='marquee-container'>
-                            <div className='marquee'>
-                                <div className='marquee-inner'>
-                                    HELLO
-                                    HELLO
-                                    HELLO
-                                    HELLO
+                                    <p className='text-base text-center md:text-center p-5'>
+                                        {projects[i].description}
+                                    </p>
                                 </div>
                             </div>
-                        </div> */}
-
-                        <p className='text-base text-center md:text-center'> 
-                            {projects[i].description}
-                        </p>
-                    </div> 
+                        ))}
+                    </div>
                 </div>
-            ))}
+            </div>
         </div>
-
-        <div className='w-full absolute top-[30%] bg-[#8f1d21]/10 left-0
-        h-[500px] -skew-y-12'/>
-    </div>
-  )
+    )
 }
 
 export default Projects

@@ -35,7 +35,7 @@ export default function Home() {
         <WorkExperience />
       </section>
 
-      <section id="projects" className="snap-start">
+      <section id="projects" className="snap-center">
         <Projects />
       </section>
 
