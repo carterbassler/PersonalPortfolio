@@ -12,7 +12,7 @@ function About({ }: Props) {
         transition={{ duration: 1.5 }}
         className='flex flex-col text-center md:text-left px-10 items-center'>
         <h3 className='top-24 uppercase
-        text-gray-500 text-2xl text-center pb-20 md:p-0'>
+        text-gray-500 text-2xl text-center pb-10 md:p-0'>
           About
         </h3>
         <div className='flex flex-col md:flex-row justify-evenly text-center md:text-left items-center mx-auto md:p-10'>
