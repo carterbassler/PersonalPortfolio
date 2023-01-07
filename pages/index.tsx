@@ -11,7 +11,7 @@ import HomeHero from "../components/HomeHero";
 
 export default function Home() {
   return (
-    <div className="bg-[#1A1A1D] text-white h-screen snap-y snap-mandatory
+    <div className="bg-[#1A1A1D] text-white h-screen md:snap-y md:snap-mandatory
     overflow-scroll overflow-x-hidden z-0 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#6F2232]/80">
       <Head>
         <title>Carter's Portfolio</title>
