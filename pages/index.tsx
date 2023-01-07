@@ -19,7 +19,7 @@ export default function Home() {
 
       <NavBar />
       <section id="hero" className="snap-start py-10">
-          <Hero />
+          <HomeHero />
       </section>
 
       <section id="about" className="snap-center">
