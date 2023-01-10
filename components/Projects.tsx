@@ -26,7 +26,7 @@ function Projects({ }: Props) {
         new Project(
             "https://i.ibb.co/6YpZhmG/spotify-Proj.png",
             "Spotify Save Discover Weekly",
-            "Developed a Python program that utilizes the Spotify API to automate the creation and storage of a weekly playlist. The program retrieves the songs from the user's 'Discover Weekly' playlist and stores them in a new playlist, allowing the user to access and listen to their previous week's songs at any time. Utilized python to interact with the Spotify API and manage playlist creation and storage.",
+            "Developed a Next JS web application that uses NextAuth and the Spotify API to allow users to log in and automate the process of saving their 'Discover Weekly' playlist.",
         ),
     ];
     return (
