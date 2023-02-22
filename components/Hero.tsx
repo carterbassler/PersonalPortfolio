@@ -26,7 +26,7 @@ function Hero({ }: Props) {
                 <Image className='object-contain rounded-full'
                     layout='fill'
                     objectFit='contain'
-                    src="https://media.licdn.com/dms/image/C5603AQFft3QevGb1Ew/profile-displayphoto-shrink_400_400/0/1609867797275?e=1676505600&v=beta&t=xvze5-Qk6ZnjXLu00n78lPQRO6P-grocgbcLUzzIVgs" alt={''}
+                    src="https://media.licdn.com/dms/image/C5603AQFft3QevGb1Ew/profile-displayphoto-shrink_200_200/0/1609867797275?e=1682553600&v=beta&t=TjkU-hYkTwaCmck3U4Ohn1TAqssGC8B0Trv7L6oeHz8" alt={''}
                 />
             </div>
             <div className='z-20'>

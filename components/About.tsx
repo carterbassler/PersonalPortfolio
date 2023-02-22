@@ -18,7 +18,7 @@ function About({ }: Props) {
         <div className='flex flex-col md:flex-row justify-evenly text-center md:text-left items-center mx-auto md:p-10'>
 
           <motion.img
-            src="https://media.licdn.com/dms/image/C5603AQFft3QevGb1Ew/profile-displayphoto-shrink_400_400/0/1609867797275?e=1676505600&v=beta&t=xvze5-Qk6ZnjXLu00n78lPQRO6P-grocgbcLUzzIVgs"
+            src="https://avatars.githubusercontent.com/u/54248223?v=4"
             className='md:mb-0 flex-shrink-0 w-40 h-40 rounded-full object-cover
         md:rounded-lg md:w-64 md:h-96 xl:w-[400px] xl:h-[500px]'
           />

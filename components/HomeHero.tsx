@@ -46,7 +46,7 @@ function HomeHero({ }: Props) {
                         <div className='test2 rounded-full border border-[#8f1d21] opacity-20 h-[550px] w-[550px]
         absolute mt-52'/>
                     </div>
-                    <img src='https://media.licdn.com/dms/image/C5603AQFft3QevGb1Ew/profile-displayphoto-shrink_400_400/0/1609867797275?e=1676505600&v=beta&t=xvze5-Qk6ZnjXLu00n78lPQRO6P-grocgbcLUzzIVgs' alt="this is me!" className='rounded-full h-2/3 w-2/3' />        
+                    <img src='https://avatars.githubusercontent.com/u/54248223?v=4' alt="this is me!" className='rounded-full h-2/3 w-2/3' />        
                 </div>
             </div>
         </div>
