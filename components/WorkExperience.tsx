@@ -21,7 +21,7 @@ function WorkExperience({ }: Props) {
   }
   const ex1 = new Experience(
     "Fermat Capital Management",
-    "https://media.licdn.com/dms/image/C560BAQEOYSfm29u9lw/company-logo_200_200/0/1654718213903?e=1679529600&v=beta&t=ahCfDpLkPBCr2XH22wDDnAhImetvrQW8CzuTnvyhilc",
+    "https://media.licdn.com/dms/image/C560BAQEOYSfm29u9lw/company-logo_200_200/0/1654718213903?e=1691020800&v=beta&t=5yr1m4tqjc01THLgzNRVcF7lVE05rLQyjFbRZhr34k0",
     "Software Engineer Intern",
     "June 2022 - August 2022",
     [
@@ -32,7 +32,7 @@ function WorkExperience({ }: Props) {
   )
   const ex2 = new Experience(
     "Fermat Capital Management",
-    "https://media.licdn.com/dms/image/C560BAQEOYSfm29u9lw/company-logo_200_200/0/1654718213903?e=1679529600&v=beta&t=ahCfDpLkPBCr2XH22wDDnAhImetvrQW8CzuTnvyhilc",
+    "https://media.licdn.com/dms/image/C560BAQEOYSfm29u9lw/company-logo_200_200/0/1654718213903?e=1691020800&v=beta&t=5yr1m4tqjc01THLgzNRVcF7lVE05rLQyjFbRZhr34k0",
     "Software Engineer Intern",
     "June 2021 - August 2021",
     [
@@ -43,7 +43,7 @@ function WorkExperience({ }: Props) {
   )
   const ex3 = new Experience(
     "Top Hat Tutors",
-    "https://media.licdn.com/dms/image/C4D0BAQEGXJxKNDqBgw/company-logo_200_200/0/1519922081689?e=1680134400&v=beta&t=-4TdLDDusccvvxIbftTiaNgFZpu-t2kvzs3UTpXeGOE",
+    "https://media.licdn.com/dms/image/C4D0BAQEGXJxKNDqBgw/company-logo_200_200/0/1519922081689?e=1691020800&v=beta&t=sWHImPR714GIoImTWpcHzWLaGvS-8dqd9UYefforzSk",
     "STEM Tutor",
     "Sept 2019 - Nov 2020",
     [
