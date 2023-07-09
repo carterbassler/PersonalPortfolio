@@ -19,6 +19,17 @@ function WorkExperience({ }: Props) {
       this.bulletPoints = bulletPoints;
     }
   }
+  const ex = new Experience(
+    "BNY Mellon",
+    "",
+    "Software Engineer Intern",
+    "June 2023 - August 2023",
+    [
+      "Bullet Point 1",
+      "Bullet Point 2",
+      "Bullet Point 3"
+    ],
+  )
   const ex1 = new Experience(
     "Fermat Capital Management",
     "https://media.licdn.com/dms/image/C560BAQEOYSfm29u9lw/company-logo_200_200/0/1654718213903?e=1691020800&v=beta&t=5yr1m4tqjc01THLgzNRVcF7lVE05rLQyjFbRZhr34k0",

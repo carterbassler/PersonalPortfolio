@@ -13,29 +13,29 @@ function Music({ }: Props) {
   ];
   return (
     <div className='flex items-center w-full h-screen'>
-    <div className='flex flex-col text-left md:flex-col
+      <div className='flex flex-col text-left md:flex-col
 max-w-full mx-auto items-center scrollbar-thin'>
         <h3 className='top-24 uppercase text-gray-500
 text-2xl'>
           Playlist Picks
         </h3>
         <div className='flex flex-col overflow-hidden mx-auto max-w-full'>
-            <div className='flex overflow-x-scroll snap-x
+          <div className='flex overflow-x-scroll snap-x
 snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#8f1d21]/80'>
-                {songs.map((project, i) => (
-          <div key={i} className='w-screen flex-shrink-0 snap-center flex flex-col space-y-center
+            {songs.map((project, i) => (
+              <div key={i} className='w-screen flex-shrink-0 snap-center flex flex-col space-y-center
                 items-center justify-center p-20 md:py-20 md:px-60'>
-            <iframe
-              src={project}
-              width="100%"
-              height="400"
-              allow="autoplay; clipboard-write;" />
+                <iframe
+                  src={project}
+                  width="100%"
+                  height="400"
+                  allow="autoplay; clipboard-write;" />
+              </div>
+            ))}
           </div>
-        ))}
-            </div>
         </div>
+      </div>
     </div>
-</div>
   )
 }
 
