@@ -46,7 +46,7 @@ function Projects({}: Props) {
   const project3 = new Proj(
     "Fifa Arbitrage Sniping Script",
     "https://media.contentapi.ea.com/content/dam/ea/fifa/images/fifa-generic-featured-tile-16x9.png.adapt.crop191x100.1200w.png",
-    "View Project on GitHub",
+    "",
     "Designed and implemented a FIFA Ultimate Team sniping bot that utilizes arbitrage tactics to identify and acquire valuable players at a lower cost. Utilized python to scrape player data and make intelligent purchasing decisions based on market trends and player performance.",
     "https://github.com/carterbassler/FifaSnipingScript",
     "fifaProj.png"
