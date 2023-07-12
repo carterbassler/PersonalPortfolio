@@ -50,9 +50,9 @@ function Popup({ trigger, setTrigger, proj }: Props) {
                     </div>
                 </div>
                 <button
-                    className='px-4 py-2 rounded-md'
+                    className='px-4 py-2 rounded-md bg-[#8f1d21] hover:bg-[#8d5557]'
                     onClick={() => setTrigger(false)}
-                    style={{ backgroundColor: '#8f1d21', color: 'white' }}
+                    style={{ color: 'white' }}
                 >
                     Close
                 </button>

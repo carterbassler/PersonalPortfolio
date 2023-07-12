@@ -31,15 +31,15 @@ function Projects({}: Props) {
     "ImperiumFit",
     "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/23/10/e1/2310e19e-719b-4644-f45d-4b3fca36d098/AppIcon-1x_U007emarketing-0-7-0-85-220.png/460x0w.webp",
     "Check it out on the App Store",
-    "Developed a full-stack Flutter/Dart mobile application with workout tracking, exercise addition, and set management features. Incorporated Firebase Firestore for real-time data handling and Firebase Authentication for secure user access control.",
+    "A full-stack Flutter/Dart mobile application with workout tracking, exercise addition, and set management features. Incorporated Firebase Firestore for real-time data handling and Firebase Authentication for secure user access control.",
     "https://apps.apple.com/us/app/imperiumfit/id6449546227",
     "imperiumProj1.png"
   );
   const project2 = new Proj(
     "Save Discover Weekly",
-    "https://s3-alpha.figma.com/hub/file/2734964093/9f5edc36-eb4d-414a-8447-10514f2bc224-cover.png",
+    "https://newjams-images.scdn.co/image/ab676477000033ad/dt/v3/discover-weekly/Eh2xNF9-XhqcyfcYpxhmZlsZV1dmMbl38kfVMcy_WPFOCwIX5kMMmeib4avJtxu9p9f4PMDTuJmMrJ5ISI-vwjMnsJZq7qgVapwLnehwcCvhLWOaW0dl_w1l6LGNmpYaOg28fVPh4Uc8j2ku2NBp-tD2eVCXHn_pNz-7Nk3d5MwmvNTJ5XRWos_OLMu-hw7cnRDGq7a2-GAWoWmova4KXl76C2hFoZSdOFEaonHNn0YlEMzZztjWYYnIS6rtWRYR4EBJ5dcRmxg7DZycYTj5fhbvNfCiodOQlWRaNXfe2IZDcmwxcGUZZ-M-2wYWcnQsKsDwrd6vp4NpsCY-R4N4kvuExtURevGg6d5Eatc95y1_xQm6pH7KHfoCBWyqI6Tf6W8f7xru6agPT7NZPBT6xV-_UEXnKvZeMjM6I5NcE18=/MTE6OTQ6MjBUNTItMzAtMw==",
     "Try it Yourself",
-    "Developed a Next JS web application that uses NextAuth and the Spotify API to allow users to log in and automate the process of saving their 'Discover Weekly' playlist.    ",
+    "A Next JS web application that uses NextAuth and the Spotify API to allow users to log in and automate the process of saving their 'Discover Weekly' playlist.    ",
     "https://spotify-discover-weekly.vercel.app/login",
     "spotifyProj.png"
   );
@@ -47,7 +47,7 @@ function Projects({}: Props) {
     "Fifa Arbitrage Sniping Script",
     "https://media.contentapi.ea.com/content/dam/ea/fifa/images/fifa-generic-featured-tile-16x9.png.adapt.crop191x100.1200w.png",
     "",
-    "Designed and implemented a FIFA Ultimate Team sniping bot that utilizes arbitrage tactics to identify and acquire valuable players at a lower cost. Utilized python to scrape player data and make intelligent purchasing decisions based on market trends and player performance.",
+    "A FIFA Ultimate Team sniping bot that utilizes arbitrage tactics to identify and acquire valuable players at a lower cost. Utilized python to scrape player data and make intelligent purchasing decisions based on market trends and player performance.",
     "https://github.com/carterbassler/FifaSnipingScript",
     "fifaProj.png"
   );
@@ -55,7 +55,7 @@ function Projects({}: Props) {
     "Loo's List Clone",
     "https://media.cnn.com/api/v1/images/stellar/prod/200617131110-02-uva-reworked-logo-0616.jpg?q=w_1600,h_900,x_0,y_0,c_fill",
     "View Project on GitHub",
-    "Developed a full-stack Django web application to display real-time University of Virginia class listings, integrated with Google user accounts for secure authentication, and utilized PostgreSQL for efficient data storage and access.",
+    "A full-stack Django web application to display real-time University of Virginia class listings, integrated with Google user accounts for secure authentication, and utilized PostgreSQL for efficient data storage and access.",
     "https://github.com/uva-cs3240-f22/project-a-12",
     "loosList.png"
   );
