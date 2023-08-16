@@ -19,40 +19,40 @@ function WorkExperience({ }: Props) {
       this.bulletPoints = bulletPoints;
     }
   }
-  const ex = new Experience(
+  const ex1 = new Experience(
     "BNY Mellon",
-    "",
+    "https://media.licdn.com/dms/image/D4E0BAQHFIQZwzMLdXA/company-logo_200_200/0/1688216120005?e=1700092800&v=beta&t=wq8-FzTb0LbQF6uD3u6X9bPSsA0yh_obAfwmpuy41iM",
     "Software Engineer Intern",
     "June 2023 - August 2023",
     [
-      "Bullet Point 1",
-      "Bullet Point 2",
-      "Bullet Point 3"
+      "Developed a Microfrontend for BNY Mellon's WMT Private Banking Division using Angular, enhancing user interface and experience for wealth management desktop applications",
+      "Assisted in the development of robust APIs with Spring Framework, integrating them with the frontend for seamless data transfer and optimized operations",
+      "Implemented error handling mechanisms for 4 deployed applications, resolving pipelining errors, thus improving application reliability and stability"
     ],
-  )
-  const ex1 = new Experience(
-    "Fermat Capital Management",
-    "https://media.licdn.com/dms/image/C560BAQEOYSfm29u9lw/company-logo_200_200/0/1654718213903?e=1699488000&v=beta&t=GgKwND762xq33BbGWTrtDwRDkhFmC3LXBEt0IgKP6oU",
-    "Software Engineer Intern",
-    "June 2022 - August 2022",
-    [
-      "Produced .NET Core web application to automate the filtration of CAT Bond data",
-      "Constructed an ML model intended to classify correct bond data using Multi-Class Text Classification that runs with 92% accuracy",
-      "Developed intuitive and adaptive code using LINQ and REGEX to more efficiently handle string manipulation",
-    ]
   )
   const ex2 = new Experience(
     "Fermat Capital Management",
     "https://media.licdn.com/dms/image/C560BAQEOYSfm29u9lw/company-logo_200_200/0/1654718213903?e=1699488000&v=beta&t=GgKwND762xq33BbGWTrtDwRDkhFmC3LXBEt0IgKP6oU",
     "Software Engineer Intern",
-    "June 2021 - August 2021",
+    "June 2022 - August 2022",
     [
-      "Developed JavaScript Web Application to visually represent insurance loss in categorized fashion",
-      "Utilized Google Maps API to upload and visualize datasets in order to help facilitate decisions",
-      "Handled asynchronous calls and worked with Threads and Promises",
+      "Produced .NET Core app to automate CAT Bond data filtration, reducing manual processing time by 5 hours per week, significantly enhancing workflow efficiency and productivity",
+      "Built an ML model with a 92% accuracy rate and implemented a system to detect and report erroneous predictions, resulting in a reduction in misclassifications",
+      "Optimized string manipulation operations by leveraging LINQ and REGEX, resulting in enhanced data processing speeds and system responsiveness",
     ]
   )
   const ex3 = new Experience(
+    "Fermat Capital Management",
+    "https://media.licdn.com/dms/image/C560BAQEOYSfm29u9lw/company-logo_200_200/0/1654718213903?e=1699488000&v=beta&t=GgKwND762xq33BbGWTrtDwRDkhFmC3LXBEt0IgKP6oU",
+    "Software Engineer Intern",
+    "June 2021 - August 2021",
+    [
+      "Developed a Angular web app that has been used to visualize over 40,000 data points of insurance loss, aiding in the decision-making process",
+      "Enhanced data visualization by integrating the Google Maps API, facilitating clearer dataset comprehension and expediting decision-making processes",
+      "Improved application responsiveness by handling more asynchronous calls efficiently with Threads and Promises",
+    ]
+  )
+  const ex4 = new Experience(
     "Top Hat Tutors",
     "https://media.licdn.com/dms/image/C4D0BAQEGXJxKNDqBgw/company-logo_200_200/0/1519922081689?e=1699488000&v=beta&t=EHYtwXZEIoJ4q4_FJ-yQ3oEFXbNJkM0pTikXaBDiGe0",
     "STEM Tutor",
@@ -83,6 +83,7 @@ function WorkExperience({ }: Props) {
             <ExperienceCard experience={ex1} />
             <ExperienceCard experience={ex2} />
             <ExperienceCard experience={ex3} />
+            <ExperienceCard experience={ex4} />
           </div>
         </div>
       </motion.div>
