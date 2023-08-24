@@ -39,7 +39,7 @@ function Projects({}: Props) {
     "Vibify",
     "https://newjams-images.scdn.co/image/ab676477000033ad/dt/v3/discover-weekly/Eh2xNF9-XhqcyfcYpxhmZlsZV1dmMbl38kfVMcy_WPFOCwIX5kMMmeib4avJtxu9p9f4PMDTuJmMrJ5ISI-vwjMnsJZq7qgVapwLnehwcCvhLWOaW0dl_w1l6LGNmpYaOg28fVPh4Uc8j2ku2NBp-tD2eVCXHn_pNz-7Nk3d5MwmvNTJ5XRWos_OLMu-hw7cnRDGq7a2-GAWoWmova4KXl76C2hFoZSdOFEaonHNn0YlEMzZztjWYYnIS6rtWRYR4EBJ5dcRmxg7DZycYTj5fhbvNfCiodOQlWRaNXfe2IZDcmwxcGUZZ-M-2wYWcnQsKsDwrd6vp4NpsCY-R4N4kvuExtURevGg6d5Eatc95y1_xQm6pH7KHfoCBWyqI6Tf6W8f7xru6agPT7NZPBT6xV-_UEXnKvZeMjM6I5NcE18=/MTE6OTQ6MjBUNTItMzAtMw==",
     "Try it Yourself",
-    "A Next JS web application that uses NextAuth and the Spotify API to allow users to log in and automate the process of saving their 'Discover Weekly' playlist.    ",
+    "A Next JS web application that uses NextAuth and the Spotify API to allow users to log in and automate the process of saving their 'Discover Weekly' playlist. Also allows users to view their Spotify 'Wrapped'.",
     "https://music-helper-app.vercel.app/",
     "spotifyProj.png"
   );

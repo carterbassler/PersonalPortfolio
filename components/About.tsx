@@ -28,14 +28,14 @@ function About({ }: Props) {
               Here is a {" "}<span className='strong'>little</span>{" "} bit about me
             </h4>
             <p className='text-base'>
-              I am currently a fourth year student at the University of Virginia studying
-              Computer Science. The past two summers I’ve interned at
-              Fermat Capital Management, an alternative investment
-              manager that specializes in insurance linked strategies. At school I’m a member of UVA’s
-              chapter of the professional fraternity
-              Alpha Kappa Psi. I’m experienced with Java, Python,
-              C++, and am currently learning mobile development. I just published my first app on the ios app store! Check out some of my
-              social media and feel free to reach out!
+            I am a fourth-year Computer Science student at the University of Virginia. 
+            Over the past three summers, I've interned at institutions including Fermat Capital 
+            Management, an alternative investment manager specializing in insurance-linked strategies, 
+            and most recently at BNY Mellon. At BNY Mellon, I developed a microfrontend for the Wealth 
+            Desktop Platform using Angular, contributing to enhanced user interface and experience. At 
+            UVA, I am proud to be a part of the Alpha Kappa Psi professional fraternity. My technical 
+            strengths include Java, Python, and C++. Lately, I've delved into mobile development and have 
+            celebrated the recent launch of my first app on the iOS App Store. Please don't hesitate to connect!
             </p>
           </div>
         </div>

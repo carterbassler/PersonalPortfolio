@@ -47,7 +47,7 @@ function ExperienceCard({experience}: Props) {
             <p className='font-bold text-lg md:text-xl mt-1'>{experience.role}</p>
             <p className='py-2 md:py-4 text-lg text-gray-300'>{experience.duration}</p>
 
-            <ul className='list-disc space-y-3 ml-5 text-xs md:text-sm xl:text-base'>
+            <ul className='list-disc space-y-3 ml-5 text-xs md:text-sm xl:text-md'>
                 {experience.bulletPoints.map(bulletPoint =>(
                     <li key={bulletPoint}>{bulletPoint}</li>
                 ))}
