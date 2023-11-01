@@ -28,14 +28,7 @@ function About({ }: Props) {
               Here is a {" "}<span className='strong'>little</span>{" "} bit about me
             </h4>
             <p className='text-base'>
-            I am a fourth-year Computer Science student at the University of Virginia. 
-            Over the past three summers, I've interned at institutions including Fermat Capital 
-            Management, an alternative investment manager specializing in insurance-linked strategies, 
-            and most recently at BNY Mellon. At BNY Mellon, I developed a microfrontend for the Wealth 
-            Desktop Platform using Angular, contributing to enhanced user interface and experience. At 
-            UVA, I am proud to be a part of the Alpha Kappa Psi professional fraternity. My technical 
-            strengths include Java, Python, and C++. Lately, I've delved into mobile development and have 
-            celebrated the recent launch of my first app on the iOS App Store. Please don't hesitate to connect!
+            I am a fourth-year Computer Science student at the University of Virginia.  Over the past three summers I’ve had cool software engineering internships at two financial institutions. In the summer of 2021 and 2022, I interned at Fermat Capital, an alternative investment manager specializing in insurance-linked strategies. Last summer I interned at Bank of New York Mellon where I worked on their Wealth Management team to develop a microfrontend for one of their internal tools. At the University of Virginia I’m part of the nationally recognized Alpha Kappa Psi Professional Fraternity. I have a wide range of technical skills and passions and currently I’m working on my latest passion project Imperium: a workout tracking mobile app where you can share your workouts with others and keep each other accountable, inspiring a sense of community within the fitness world. If any of what I said sounds cool, feel free to reach out!
             </p>
           </div>
         </div>

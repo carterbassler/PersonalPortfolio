@@ -13,7 +13,7 @@ function Hero({ }: Props) {
         words: [
             "UVA Student",
             "Music Enthusiast",
-            "Future Trophy Husband"
+            "Avid Aston Villa Fan"
         ],
         loop: true,
         delaySpeed: 2000,

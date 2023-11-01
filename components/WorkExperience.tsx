@@ -25,9 +25,9 @@ function WorkExperience({ }: Props) {
     "Software Engineer Intern",
     "June 2023 - August 2023",
     [
-      "Developed a Microfrontend for BNY Mellon's WMT Private Banking Division using Angular, enhancing user interface and experience for wealth management desktop applications",
-      "Assisted in the development of robust APIs with Spring Framework, integrating them with the frontend for seamless data transfer and optimized operations",
-      "Implemented error handling mechanisms for 4 deployed applications, resolving pipelining errors, thus improving application reliability and stability"
+      "Developed a Microfrontend for the Wealth Desktop Platform using Angular, streamlining internal processes and improving application performance 60% by optimizing data access",
+      "Assisted in the development of REST APIs with Spring Framework, integrating them with the frontend for seamless data transfer and optimized operations",
+      "Designed and implemented error handling mechanisms for key applications, leading to a 70% reduction in pipelining errors and enhancing system reliability for 300+ users"
     ],
   )
   const ex2 = new Experience(
@@ -36,8 +36,8 @@ function WorkExperience({ }: Props) {
     "Software Engineer Intern",
     "June 2022 - August 2022",
     [
-      "Produced .NET Core app to automate CAT Bond data filtration, reducing manual processing time by 5 hours per week, significantly enhancing workflow efficiency and productivity",
-      "Built an ML model with a 92% accuracy rate and implemented a system to detect and report erroneous predictions, resulting in a reduction in misclassifications",
+      "Produced .NET Core app to automate Catastrophe (CAT) bond data filtration, reducing manual processing time by 5 hours per week, significantly enhancing workflow efficiency and productivity",
+      "Built an ML model with a 92% accuracy rate and implemented a system to detect and report erroneous predictions",
       "Optimized string manipulation operations by leveraging LINQ and REGEX, resulting in enhanced data processing speeds and system responsiveness",
     ]
   )
@@ -47,9 +47,9 @@ function WorkExperience({ }: Props) {
     "Software Engineer Intern",
     "June 2021 - August 2021",
     [
-      "Developed a Angular web app that has been used to visualize over 40,000 data points of insurance loss, aiding in the decision-making process",
+      "Developed a Angular web app that has been used to visualize over 40,000 data points of insurance loss",
       "Enhanced data visualization by integrating the Google Maps API, facilitating clearer dataset comprehension and expediting decision-making processes",
-      "Improved application responsiveness by handling more asynchronous calls efficiently with Threads and Promises",
+      "Improved application performance and ensured seamless user experience by optimizing asynchronous call handling with Threading and Promises, leading to faster data retrieval and processing",
     ]
   )
   const ex4 = new Experience(
