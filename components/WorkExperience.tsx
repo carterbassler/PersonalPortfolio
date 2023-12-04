@@ -21,7 +21,7 @@ function WorkExperience({ }: Props) {
   }
   const ex1 = new Experience(
     "BNY Mellon",
-    "https://media.licdn.com/dms/image/D4E0BAQHFIQZwzMLdXA/company-logo_200_200/0/1688216120005?e=1700092800&v=beta&t=wq8-FzTb0LbQF6uD3u6X9bPSsA0yh_obAfwmpuy41iM",
+    "https://media.licdn.com/dms/image/D4E0BAQHFIQZwzMLdXA/company-logo_200_200/0/1688216120801/bny_mellon_logo?e=1709769600&v=beta&t=wPzeIc3YBmrtNoe1oXZui9Pk_h1MBrWCLFHIz48YoLU",
     "Software Engineer Intern",
     "June 2023 - August 2023",
     [
@@ -32,7 +32,7 @@ function WorkExperience({ }: Props) {
   )
   const ex2 = new Experience(
     "Fermat Capital Management",
-    "https://media.licdn.com/dms/image/C560BAQEOYSfm29u9lw/company-logo_200_200/0/1654718213903?e=1699488000&v=beta&t=GgKwND762xq33BbGWTrtDwRDkhFmC3LXBEt0IgKP6oU",
+    "https://media.licdn.com/dms/image/C560BAQEOYSfm29u9lw/company-logo_200_200/0/1654718214365/fermat_capital_management_llc_logo?e=1709769600&v=beta&t=F9iUzN0DDkqQZ8EiL7v-f4f5_3x3bt31Gh-mw_OgF3k",
     "Software Engineer Intern",
     "June 2022 - August 2022",
     [
@@ -43,7 +43,7 @@ function WorkExperience({ }: Props) {
   )
   const ex3 = new Experience(
     "Fermat Capital Management",
-    "https://media.licdn.com/dms/image/C560BAQEOYSfm29u9lw/company-logo_200_200/0/1654718213903?e=1699488000&v=beta&t=GgKwND762xq33BbGWTrtDwRDkhFmC3LXBEt0IgKP6oU",
+    "https://media.licdn.com/dms/image/C560BAQEOYSfm29u9lw/company-logo_200_200/0/1654718214365/fermat_capital_management_llc_logo?e=1709769600&v=beta&t=F9iUzN0DDkqQZ8EiL7v-f4f5_3x3bt31Gh-mw_OgF3k",
     "Software Engineer Intern",
     "June 2021 - August 2021",
     [
@@ -54,7 +54,7 @@ function WorkExperience({ }: Props) {
   )
   const ex4 = new Experience(
     "Top Hat Tutors",
-    "https://media.licdn.com/dms/image/C4D0BAQEGXJxKNDqBgw/company-logo_200_200/0/1519922081689?e=1699488000&v=beta&t=EHYtwXZEIoJ4q4_FJ-yQ3oEFXbNJkM0pTikXaBDiGe0",
+    "https://media.licdn.com/dms/image/C4D0BAQEGXJxKNDqBgw/company-logo_200_200/0/1631352505125?e=1709769600&v=beta&t=yolGrfoTm9xnQEgXlzCzctnH-59CHd0ck74EqCh0wDw",
     "STEM Tutor",
     "Sept 2019 - Nov 2020",
     [
